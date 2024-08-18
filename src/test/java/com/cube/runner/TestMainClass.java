@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
         glue = { "com.cube.stepdef"}, 
         monochrome = true, 
         plugin = { "pretty", "html:target/reports/HtmlReports/HtmlReports.html", "json:target/reports/JsonReports/JsonReports.json", "junit:target/reports/XmlReport.xml" }, 
-        tags = "@HappyPath, @HyperlinkDefects"
+        tags = "@HappyPath, @HyperlinkDefects", "@EdgecaseDefect"
 )
 public class TestMainClass {
 
